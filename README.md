@@ -1,10 +1,10 @@
-Guru99 Login – Hybrid Automation Framework
-📌 Overview
+# Guru99 Login – Hybrid Automation Framework
+ Overview
 
 This project is a Hybrid Automation Framework developed using Selenium WebDriver with Java to automate the Login functionality of the Guru99 demo application.
 The framework combines Page Object Model (POM), data-driven testing using Excel, and configuration management using properties files to improve maintainability and reusability.
 
-🧪 Application Under Test
+ Application Under Test
 
 Application: Guru99 Demo Site
 
@@ -12,7 +12,7 @@ URL: https://demo.guru99.com/V1/index.php
 
 Module Automated: Login
 
-🛠 Tech Stack
+## Tech Stack
 
 * Java
 
@@ -28,7 +28,7 @@ Module Automated: Login
 
 * Extent Reports (Test Reporting)
 
-✨ Framework Features
+## Framework Features
 
 * Hybrid Automation Framework design
 
@@ -42,7 +42,7 @@ Module Automated: Login
 
 * Modular and reusable test components
 
-📂 Project Structure
+## Project Structure
 ```
 HybridFramework
 │
@@ -73,7 +73,7 @@ HybridFramework
 ├── pom.xml
 └── test-output
 ```
-🔄 Test Flow
+## Test Flow
 
 * Launch browser
 
@@ -91,12 +91,12 @@ HybridFramework
 
 * Close browser
 
-▶️ How to Run
+## How to Run
 
 Run LoginTest.java using TestNG
 
 
-📄 Reporting
+## Reporting
 
 * Test execution results are generated using Extent Reports
 
@@ -104,7 +104,7 @@ Run LoginTest.java using TestNG
 
 reports/ExtentReport.html
 
-🎯 Purpose of the Project
+## Purpose of the Project
 
 This project was created to:
 
