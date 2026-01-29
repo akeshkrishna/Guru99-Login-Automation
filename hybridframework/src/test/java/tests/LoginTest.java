@@ -11,6 +11,8 @@ import base.BaseClass;
 import pages.LoginPage;
 import utils.ExcelReader;
 import utils.ExtentManager;
+import org.testng.Assert;
+
 
 public class LoginTest
 {
@@ -48,6 +50,7 @@ public class LoginTest
 		
     }
 }
+
 
 
 
