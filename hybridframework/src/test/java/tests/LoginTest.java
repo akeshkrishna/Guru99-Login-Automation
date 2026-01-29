@@ -25,6 +25,19 @@ public class LoginTest
         BaseClass.setup();
     }
 
+
+@Test
+public void testLoginUsingExcel() {
+    System.out.println("Forcing compile error")
+}
+
+
+
+
+
+
+
+	
     @Test
     public void testLoginUsingExcel() {
 		
@@ -50,6 +63,7 @@ public class LoginTest
 		
     }
 }
+
 
 
 
