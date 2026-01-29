@@ -11,7 +11,7 @@ import base.BaseClass;
 import pages.LoginPage;
 import utils.ExcelReader;
 import utils.ExtentManager;
-import org.testng.Assert;
+
 
 
 public class LoginTest
@@ -27,7 +27,7 @@ public class LoginTest
 
     @Test
     public void testLoginUsingExcel() {
-		Assert.fail("Forcing failure to test Jenkins");
+		
         test = report.createTest("Login Test Using Excel");
 
         // Load data from Excel
@@ -50,6 +50,7 @@ public class LoginTest
 		
     }
 }
+
 
 
 
