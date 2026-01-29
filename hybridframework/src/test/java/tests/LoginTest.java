@@ -25,6 +25,7 @@ public class LoginTest
 
     @Test
     public void testLoginUsingExcel() {
+		Assert.fail("Forcing failure to test Jenkins");
         test = report.createTest("Login Test Using Excel");
 
         // Load data from Excel
@@ -32,7 +33,7 @@ public class LoginTest
         ExcelReader reader = new ExcelReader(excelPath, "LoginData");
 
         String username = reader.getCellData(1, 0); // Row 1, Column 0
-       
+        String password = reader.getCellData(1, 1); // Row 1, Column 1
 
         LoginPage lp = new LoginPage(BaseClass.driver);
         lp.login(username, password);
@@ -44,7 +45,9 @@ public class LoginTest
     public void tearDown() {
         BaseClass.tearDown();
         report.flush();
+		
     }
 }
+
 
 
