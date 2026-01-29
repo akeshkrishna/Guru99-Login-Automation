@@ -32,7 +32,7 @@ public class LoginTest
         ExcelReader reader = new ExcelReader(excelPath, "LoginData");
 
         String username = reader.getCellData(1, 0); // Row 1, Column 0
-       // String password = reader.getCellData(1, 1); // Row 1, Column 1
+       
 
         LoginPage lp = new LoginPage(BaseClass.driver);
         lp.login(username, password);
@@ -46,4 +46,5 @@ public class LoginTest
         report.flush();
     }
 }
+
 
