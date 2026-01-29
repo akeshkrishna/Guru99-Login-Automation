@@ -24,19 +24,6 @@ public class LoginTest
         report = ExtentManager.getReportInstance();
         BaseClass.setup();
     }
-
-
-@Test
-public void testLoginUsingExcel() {
-    System.out.println("Forcing compile error")
-}
-
-
-
-
-
-
-
 	
     @Test
     public void testLoginUsingExcel() {
@@ -63,6 +50,7 @@ public void testLoginUsingExcel() {
 		
     }
 }
+
 
 
 
