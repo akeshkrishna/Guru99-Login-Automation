@@ -100,13 +100,6 @@ Run LoginTest.java using TestNG
 
 * Test execution results are generated using Extent Reports
 
-* Report location:
-
-reports/ExtentReport.html
-
-## Purpose of the Project
-
-This project was created to:
 
 * Practice Hybrid Framework implementation
 
